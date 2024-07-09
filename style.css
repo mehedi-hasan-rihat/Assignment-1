@@ -68,3 +68,102 @@
 /* hero's style end here*/
 
 
+/* why-web-development style start */
+
+.why-web-development{
+    width: 1140px;
+    margin: 0 auto;
+    padding: 80px 97px 80px 97px;
+    border-radius: 16px;
+    background: rgba(13, 19, 33, 0.02);
+    margin-top: 74px;
+}
+
+.why-web-development .contant{
+    width: 946px;  
+}
+
+.why-web-development .top-part{
+    width: 852px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.why-web-development .top-part  .why-title{
+    color: rgb(13, 19, 33);
+    font-size: 32px;
+    font-weight: 800;
+    line-height: 37px;
+    height: 39px;
+    margin-bottom: 24px;
+}
+
+.why-web-development .top-part .why-disc{
+    opacity: 0.7;
+    color: rgb(13, 19, 33);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+}
+
+
+.group-part{
+    display: flex;
+    flex-direction: column;
+    margin-top: 48px;
+    gap: 32px;
+ }
+
+ .group-item-content{
+    padding: 48px;
+    background: linear-gradient(90.00deg, rgb(255, 255, 255),rgba(255, 255, 255, 0) 100%);
+    border-radius: 16px;
+ }
+
+
+.group-item{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+
+.group-item .img-part{
+    width: 276.4px;
+    height: 240.32px;
+}
+
+ .group-item .text-part .title{
+    width: 390px;
+    color: rgba(13, 19, 33, 0.7);
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 36px;
+    text-align: left;
+    margin-bottom: 16px;
+}
+
+.group-item .text-part .disc{
+    width: 468px;
+    height: 52px;
+    opacity: 0.7;
+    color: rgb(13, 19, 33);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    text-align: left;
+    margin-bottom: 32px;
+}
+
+.group-item .text-part button{
+    padding: 12px 20px 12px 20px;
+    font-size: 20px;
+    border: 1px solid rgb(13, 19, 33);
+    opacity: 0.7;
+    text-align: center;
+    font-family: Azeret Mono;
+} 
+
+
+/* why-web-development style end */
