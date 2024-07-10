@@ -33,6 +33,7 @@
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    padding-top: 50px;
 }
 
 .hero-title{
@@ -41,7 +42,7 @@
     font-weight: 800;
     line-height: 55px;
     text-align: center;
-    margin-bottom: 24px;
+    margin:32px 0;
 }
 
 .hero-disc{
@@ -164,12 +165,20 @@
 
 .group-item .text-part button{
     padding: 12px 20px 12px 20px;
-    font-size: 20px;
     border: 1px solid rgb(13, 19, 33);
-    opacity: 0.7;
     text-align: center;
-    font-family: Azeret Mono;
+   
 } 
+
+.group-item .text-part button a{
+    text-decoration: none;
+    font-family: Azeret Mono;
+    opacity: 0.7;
+    font-size: 20px;
+    font-weight: 600;
+    color: rgb(13, 19, 33)
+}
+
 
 /* why-web-development style end */
 
@@ -350,10 +359,10 @@
 .contact-content .input-part .input-text{
     box-sizing: border-box;
     width: 548px;
-    border: 1px solid rgba(13, 19, 33, 0.15);
+    border: none;
     border-radius: 8px;
     background: rgb(255, 255, 255);
-    padding:21px;
+    padding:18px;
     color: rgba(13, 19, 33, 0.4);
     font-size: 16px;
     font-weight: 400;
@@ -363,7 +372,7 @@
 
 .contact-content .input-part .btn{
     width: 120px;
-    padding: 19px;
+    padding: 15px;
     border-radius: 8px;
     background: rgb(255, 255, 255);
     border: none;
