@@ -350,6 +350,7 @@
     font-size: 16px;
     font-weight: 400;
     font-family: Azeret Mono;
+    outline: none;
 }
 
 .contact-content .input-part .btn{
@@ -364,3 +365,29 @@
     font-weight: 600;
     text-align: center;
     }
+
+
+.footer{
+    padding: 32px 150px;
+    border-radius: 16px;
+    background: rgba(13, 19, 33, 0.03);
+    margin-top: 80px;
+}
+
+.footer .content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+    max-width: 1140px;
+}
+
+
+.footer .logo ul{
+    display: flex;
+    gap: 26px;
+}
+
+.footer .logo ul li{
+    list-style: none;
+}
