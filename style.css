@@ -6,10 +6,13 @@
   font-style: normal;
 }
 
+
+
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    scroll-behavior: smooth;
 }
 
 
@@ -56,13 +59,18 @@
 .hero button{
     padding: 21px 24px 21px 24px;
     border-radius: 8px;
+    text-align: center;
+    background: rgb(13, 19, 33);
+    margin-bottom: 48px;
+}
+
+.hero button a{
+    text-decoration: none;
     color: rgb(255, 255, 255);
     font-family: Azeret Mono;
     font-size: 20px;
     font-weight: 600;
-    text-align: center;
-    background: rgb(13, 19, 33);
-    margin-bottom: 48px;
+
 }
 
 /* hero's style end here*/
@@ -282,8 +290,6 @@
 .target .target-part .target-item-content .link {
     margin-top: 24px;
 }
-
-
 .target .target-part .target-item-content .link a{
     height: 20px;
     color: rgb(13, 19, 33);
@@ -295,6 +301,8 @@
 
 /* target section style end */
 
+
+/* contact section start here */
 
 
 .contact{
@@ -367,6 +375,12 @@
     }
 
 
+    /* contact section end here */
+
+
+
+    /* footer section start here */
+
 .footer{
     padding: 32px 150px;
     border-radius: 16px;
@@ -391,3 +405,5 @@
 .footer .logo ul li{
     list-style: none;
 }
+
+/* footer section end here */
